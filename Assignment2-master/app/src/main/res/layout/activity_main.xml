@@ -1,0 +1,123 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/instruction_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/travel_preferences"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+
+    <CheckBox
+        android:id="@+id/checkbox_sightseeing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sightseeing_explore_local_attractions" />
+
+    <CheckBox
+        android:id="@+id/checkbox_hiking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hiking_adventure_in_nature" />
+
+    <CheckBox
+        android:id="@+id/checkbox_shopping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/shopping_discover_local_markets" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_your_budget"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio_budget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/budget_affordable_options" />
+
+        <RadioButton
+            android:id="@+id/radio_luxury"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/luxury_high_end_experience" />
+
+        <RadioButton
+            android:id="@+id/radio_adventure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/adventure_thrilling_experiences" />
+    </RadioGroup>
+
+    <RatingBar
+        android:id="@+id/rating_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="0.25"
+        android:rating="0" />
+
+    <SeekBar
+        android:id="@+id/seekbar_budget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="1000" />
+
+    <TextView
+        android:id="@+id/textview_budget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/budget_0" />
+
+    <TextView
+        android:id="@+id/selected_options_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selected_activities" />
+
+
+    <Switch
+        android:id="@+id/switch_notifications"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:minHeight="48dp"
+        android:text="@string/enable_notifications"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Button
+        android:id="@+id/show_summary_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_summary"
+        android:backgroundTint="#151515"/>
+
+    <TextView
+        android:id="@+id/selected_budget_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selected_budget_0"
+        android:textColor="#37474F" />
+
+
+</LinearLayout>

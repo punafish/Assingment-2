@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Lets Move</string>
+    <string name="select_your_budget">Select Your Budget:</string>
+    <string name="hiking_adventure_in_nature">Hiking (Adventure in nature)</string>
+    <string name="shopping_discover_local_markets">Shopping (Discover local markets)</string>
+    <string name="sightseeing_explore_local_attractions">Sightseeing (Explore local attractions)</string>
+    <string name="travel_preferences">Travel preferences</string>
+    <string name="adventure_thrilling_experiences">Adventure (Thrilling experiences)</string>
+    <string name="budget_affordable_options">Budget (Affordable options)</string>
+    <string name="selected_budget_0">Selected Budget: $0</string>
+    <string name="luxury_high_end_experience">Luxury (High-end experience)</string>
+    <string name="selected_activities">Selected Activities:</string>
+    <string name="show_summary">Show Summary</string>
+    <string name="enable_notifications">Enable Notifications</string>
+    <string name="budget_0">Budget: $0</string>
+</resources>
